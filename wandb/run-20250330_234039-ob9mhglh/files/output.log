@@ -1,0 +1,117 @@
+Training with sequence length (timesteps): 40
+Environment: CartPole-v1
+State dimension: 4
+Action dimension: 2
+Sequence length (timesteps): 40
+Collecting expert demonstrations: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 200/200 [00:00<00:00, 2134.09it/s]
+Collected 57 expert demonstrations
+Episode length stats: min=50, max=89, mean=58.3
+Epoch 1/3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:38<00:00,  1.35it/s]
+Epoch 1/3 - Avg Loss: 0.205027
+Saved best model with loss: 0.205027
+Epoch 2/3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:32<00:00,  1.60it/s]
+Epoch 2/3 - Avg Loss: 0.121159
+Saved best model with loss: 0.121159
+Epoch 3/3: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:31<00:00,  1.67it/s]
+Epoch 3/3 - Avg Loss: 0.109689
+Saved best model with loss: 0.109689
+Loaded best model for evaluation
+Training completed successfully!
+
+=== Standard Evaluation ===
+Evaluation config: target_return=500, num_episodes=10
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 1: Score: 44.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 2: Score: 47.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 3: Score: 49.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 4: Score: 47.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 5: Score: 49.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 6: Score: 53.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 7: Score: 49.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 8: Score: 40.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 9: Score: 47.0
+Episode 10: Score: 38.0
+Average Score over 10 episodes: 46.3
+
+=== Return Conditioning Analysis ===
+Evaluating model with different target returns: [100, 200, 300, 400, 500]
+
+Evaluating with target return: 100
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 1: Target: 100, Achieved: 46.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 2: Target: 100, Achieved: 43.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 3: Target: 100, Achieved: 51.0
+
+Evaluating with target return: 200
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 1: Target: 200, Achieved: 49.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 2: Target: 200, Achieved: 43.0
+Episode 3: Target: 200, Achieved: 38.0
+
+Evaluating with target return: 300
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 1: Target: 300, Achieved: 46.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 2: Target: 300, Achieved: 50.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 3: Target: 300, Achieved: 46.0
+
+Evaluating with target return: 400
+Episode 1: Target: 400, Achieved: 38.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 2: Target: 400, Achieved: 41.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 3: Target: 400, Achieved: 49.0
+
+Evaluating with target return: 500
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 1: Target: 500, Achieved: 43.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 2: Target: 500, Achieved: 55.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 3: Target: 500, Achieved: 49.0
+
+=== Context Length Analysis ===
+Evaluating model with different context lengths: [1, 5, 10, 20, 40]
+
+Evaluating with context length: 1
+Episode 1: Context: 1, Achieved: 57.0
+Episode 2: Context: 1, Achieved: 39.0
+Episode 3: Context: 1, Achieved: 47.0
+
+Evaluating with context length: 5
+Episode 1: Context: 5, Achieved: 47.0
+Episode 2: Context: 5, Achieved: 51.0
+Episode 3: Context: 5, Achieved: 48.0
+
+Evaluating with context length: 10
+Episode 1: Context: 10, Achieved: 45.0
+Episode 2: Context: 10, Achieved: 51.0
+Episode 3: Context: 10, Achieved: 51.0
+
+Evaluating with context length: 20
+Episode 1: Context: 20, Achieved: 53.0
+Episode 2: Context: 20, Achieved: 47.0
+Episode 3: Context: 20, Achieved: 45.0
+
+Evaluating with context length: 40
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 1: Context: 40, Achieved: 49.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 2: Context: 40, Achieved: 49.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 3: Context: 40, Achieved: 46.0
+
+Comprehensive visualization saved to 'decision_transformer_analysis.png'
+Script execution completed.

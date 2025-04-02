@@ -1,0 +1,15 @@
+{"time":"2025-03-31T22:32:34.3242991-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\en596624\\OneDrive - Ohio University\\Desktop\\rl_algorithm_zoo\\wandb\\run-20250331_223234-2bqtjcpo\\logs\\debug-core.log"}
+{"time":"2025-03-31T22:32:35.646158-04:00","level":"INFO","msg":"created new stream","id":"2bqtjcpo"}
+{"time":"2025-03-31T22:32:35.6467709-04:00","level":"INFO","msg":"stream: started","id":"2bqtjcpo"}
+{"time":"2025-03-31T22:32:35.6467709-04:00","level":"INFO","msg":"handler: started","stream_id":"2bqtjcpo"}
+{"time":"2025-03-31T22:32:35.6467709-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"2bqtjcpo"}
+{"time":"2025-03-31T22:32:35.6467709-04:00","level":"INFO","msg":"sender: started","stream_id":"2bqtjcpo"}
+{"time":"2025-03-31T22:32:35.8754761-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-31T22:32:36.9226597-04:00","level":"INFO","msg":"stream: closing","id":"2bqtjcpo"}
+{"time":"2025-03-31T22:32:36.9226597-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-31T22:32:36.9231625-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-31T22:32:37.3384736-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-31T22:32:37.5000835-04:00","level":"INFO","msg":"handler: closed","stream_id":"2bqtjcpo"}
+{"time":"2025-03-31T22:32:37.5000835-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2bqtjcpo"}
+{"time":"2025-03-31T22:32:37.5000835-04:00","level":"INFO","msg":"sender: closed","stream_id":"2bqtjcpo"}
+{"time":"2025-03-31T22:32:37.5000835-04:00","level":"INFO","msg":"stream: closed","id":"2bqtjcpo"}

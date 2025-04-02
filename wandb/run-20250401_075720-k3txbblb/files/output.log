@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 66, in <module>
+    main()
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 30, in main
+    results = train_dqn(
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\value_based.py", line 197, in train_dqn
+    state, _ = env.reset()
+ValueError: too many values to unpack (expected 2)
+[0m

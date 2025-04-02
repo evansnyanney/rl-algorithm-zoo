@@ -1,0 +1,51 @@
+Environment: CartPole-v1
+State dimension: 4
+Action dimension: 2
+Sequence length (timesteps): 20
+Collecting expert demonstrations: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 3542.19it/s]
+Collected 10 expert demonstrations
+Episode length stats: min=50, max=75, mean=56.5
+Epoch 1/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.09it/s, loss=0.2826]
+Epoch 1/10 - Avg Loss: 0.335841
+Saved best model with loss: 0.335841
+Epoch 2/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.05it/s, loss=0.2185]
+Epoch 2/10 - Avg Loss: 0.241592
+Saved best model with loss: 0.241592
+Epoch 3/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.18it/s, loss=0.1946]
+Epoch 3/10 - Avg Loss: 0.216203
+Saved best model with loss: 0.216203
+Epoch 4/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.11it/s, loss=0.1663]
+Epoch 4/10 - Avg Loss: 0.186140
+Saved best model with loss: 0.186140
+Epoch 5/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.05it/s, loss=0.1704]
+Epoch 5/10 - Avg Loss: 0.174741
+Saved best model with loss: 0.174741
+Epoch 6/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.14it/s, loss=0.1446]
+Epoch 6/10 - Avg Loss: 0.163504
+Saved best model with loss: 0.163504
+Epoch 7/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.23it/s, loss=0.1830]
+Epoch 7/10 - Avg Loss: 0.158506
+Saved best model with loss: 0.158506
+Epoch 8/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.11it/s, loss=0.1319]
+Epoch 8/10 - Avg Loss: 0.146220
+Saved best model with loss: 0.146220
+Epoch 9/10: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.15it/s, loss=0.1451]
+Epoch 9/10 - Avg Loss: 0.140707
+Saved best model with loss: 0.140707
+Epoch 10/10: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00,  3.08it/s, loss=0.1156]
+Epoch 10/10 - Avg Loss: 0.137868
+Saved best model with loss: 0.137868
+Loaded best model for evaluation
+Evaluation config: target_return=500, num_episodes=10
+Episode 1: Score: 10.0
+Episode 2: Score: 11.0
+Episode 3: Score: 9.0
+Episode 4: Score: 9.0
+Episode 5: Score: 9.0
+Episode 6: Score: 8.0
+Episode 7: Score: 11.0
+Episode 8: Score: 10.0
+Episode 9: Score: 10.0
+Episode 10: Score: 10.0
+Average Score over 10 episodes: 9.7
+Visualization saved to 'decision_transformer_results.png'

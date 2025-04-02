@@ -1,0 +1,15 @@
+{"time":"2025-04-01T11:43:43.1161675-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\en596624\\OneDrive - Ohio University\\Desktop\\rl_algorithm_zoo\\wandb\\run-20250401_114343-6bwnhnjm\\logs\\debug-core.log"}
+{"time":"2025-04-01T11:43:44.4440264-04:00","level":"INFO","msg":"created new stream","id":"6bwnhnjm"}
+{"time":"2025-04-01T11:43:44.4440264-04:00","level":"INFO","msg":"stream: started","id":"6bwnhnjm"}
+{"time":"2025-04-01T11:43:44.4440264-04:00","level":"INFO","msg":"handler: started","stream_id":"6bwnhnjm"}
+{"time":"2025-04-01T11:43:44.4440264-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"6bwnhnjm"}
+{"time":"2025-04-01T11:43:44.4440264-04:00","level":"INFO","msg":"sender: started","stream_id":"6bwnhnjm"}
+{"time":"2025-04-01T11:43:44.7045728-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-01T11:43:53.018577-04:00","level":"INFO","msg":"stream: closing","id":"6bwnhnjm"}
+{"time":"2025-04-01T11:43:53.019082-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-01T11:43:53.0201566-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-01T11:43:53.6209169-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-01T11:43:53.7991423-04:00","level":"INFO","msg":"handler: closed","stream_id":"6bwnhnjm"}
+{"time":"2025-04-01T11:43:53.7991423-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6bwnhnjm"}
+{"time":"2025-04-01T11:43:53.7991423-04:00","level":"INFO","msg":"sender: closed","stream_id":"6bwnhnjm"}
+{"time":"2025-04-01T11:43:53.7997693-04:00","level":"INFO","msg":"stream: closed","id":"6bwnhnjm"}

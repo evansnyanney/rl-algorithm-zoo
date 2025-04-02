@@ -1,0 +1,1 @@
+{"_step":999,"_timestamp":1.7433722434151294e+09,"_runtime":130.0217043,"episode":1000,"critic_loss":72.17256760597229,"_wandb":{"runtime":130},"running_reward":76.97951502710467,"avg_score_100":233.9,"score":9,"actor_loss":0.00011155753008154078}

@@ -1,0 +1,458 @@
+Training Decision Transformer on CartPole-v1 with 50 episodes
+Configuration: seq_len=40, batch_size=64, epochs=30
+Model architecture: hidden_dim=256, layers=4, heads=8
+Environment: CartPole-v1
+State dimension: 4
+Action dimension: 2
+Sequence length (timesteps): 40
+Collecting expert demonstrations: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 2152.16it/s]
+Collected 13 expert demonstrations
+Episode length stats: min=50, max=72, mean=56.8
+Epoch 1/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:08<00:00,  1.44it/s, loss=0.2544]
+Epoch 1/30 - Avg Loss: 0.334789
+Epoch 2/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:08<00:00,  1.49it/s, loss=0.2259]
+Epoch 2/30 - Avg Loss: 0.236532
+Epoch 3/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:08<00:00,  1.50it/s, loss=0.1939]
+Epoch 3/30 - Avg Loss: 0.197213
+Epoch 4/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.51it/s, loss=0.1608]
+Epoch 4/30 - Avg Loss: 0.164315
+Epoch 5/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:08<00:00,  1.48it/s, loss=0.1632]
+Epoch 5/30 - Avg Loss: 0.153602
+Epoch 6/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:08<00:00,  1.48it/s, loss=0.1304]
+Epoch 6/30 - Avg Loss: 0.141269
+Epoch 7/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:08<00:00,  1.49it/s, loss=0.1479]
+Epoch 7/30 - Avg Loss: 0.141591
+Epoch 8/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:08<00:00,  1.48it/s, loss=0.1155]
+Epoch 8/30 - Avg Loss: 0.134248
+Epoch 9/30: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.64it/s, loss=0.1245]
+Epoch 9/30 - Avg Loss: 0.132364
+Epoch 10/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.64it/s, loss=0.1467]
+Epoch 10/30 - Avg Loss: 0.131053
+Epoch 11/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.62it/s, loss=0.1825]
+Epoch 11/30 - Avg Loss: 0.132146
+Epoch 12/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.64it/s, loss=0.1265]
+Epoch 12/30 - Avg Loss: 0.126364
+Epoch 13/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.64it/s, loss=0.1073]
+Epoch 13/30 - Avg Loss: 0.125663
+Epoch 14/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.66it/s, loss=0.1382]
+Epoch 14/30 - Avg Loss: 0.125988
+Epoch 15/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.63it/s, loss=0.1739]
+Epoch 15/30 - Avg Loss: 0.126828
+Epoch 16/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.62it/s, loss=0.1171]
+Epoch 16/30 - Avg Loss: 0.123241
+Epoch 17/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.61it/s, loss=0.1587]
+Epoch 17/30 - Avg Loss: 0.124181
+Epoch 18/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.65it/s, loss=0.1532]
+Epoch 18/30 - Avg Loss: 0.125396
+Epoch 19/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.63it/s, loss=0.1030]
+Epoch 19/30 - Avg Loss: 0.120917
+Epoch 20/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.62it/s, loss=0.1441]
+Epoch 20/30 - Avg Loss: 0.120694
+Epoch 21/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.64it/s, loss=0.1391]
+Epoch 21/30 - Avg Loss: 0.120704
+Epoch 22/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.66it/s, loss=0.1038]
+Epoch 22/30 - Avg Loss: 0.117696
+Epoch 23/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.68it/s, loss=0.1201]
+Epoch 23/30 - Avg Loss: 0.118437
+Epoch 24/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.64it/s, loss=0.1210]
+Epoch 24/30 - Avg Loss: 0.117086
+Epoch 25/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.64it/s, loss=0.1095]
+Epoch 25/30 - Avg Loss: 0.115612
+Epoch 26/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.67it/s, loss=0.1184]
+Epoch 26/30 - Avg Loss: 0.117768
+Epoch 27/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.63it/s, loss=0.1073]
+Epoch 27/30 - Avg Loss: 0.114141
+Epoch 28/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.63it/s, loss=0.1269]
+Epoch 28/30 - Avg Loss: 0.116323
+Epoch 29/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.64it/s, loss=0.1331]
+Epoch 29/30 - Avg Loss: 0.116161
+Epoch 30/30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:07<00:00,  1.68it/s, loss=0.0971]
+Epoch 30/30 - Avg Loss: 0.112907
+
+Evaluating trained model...
+Evaluation config: target_return=500, num_episodes=10
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 1: Score: 40.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 2: Score: 68.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 3: Score: 32.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 4: Score: 42.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 5: Score: 94.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 6: Score: 35.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 7: Score: 32.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 8: Score: 90.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 9: Score: 31.0
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Error in model prediction: index 39 is out of bounds for dimension 1 with size 39
+Episode 10: Score: 39.0
+Average Score over 10 episodes: 50.3
+
+Evaluation Summary:
+Average score: 50.30
+Best score: 94.00
+Worst score: 31.00

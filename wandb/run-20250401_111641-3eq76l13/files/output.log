@@ -1,0 +1,25 @@
+Collecting expert demonstrations: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 2567.05it/s]
+Collected 17 expert demonstrations
+Episode length stats: min=50, max=116, mean=63.9
+Epoch 1/10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 17/17 [00:07<00:00,  2.31it/s, loss=0.2399]
+Epoch 1/10 - Avg Loss: 0.282089
+Saved best model with loss: 0.282089
+Traceback (most recent call last):
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 66, in <module>
+    main()
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 57, in main
+    results = train_decision_transformer(
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\candidate.py", line 362, in train_decision_transformer
+    avg_score = evaluate_decision_transformer_in_training(model, env_name=env_name, target_return=500, num_eval_episodes=5)
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\candidate.py", line 238, in evaluate_decision_transformer_in_training
+    action = select_action_dt(model, states_history, actions_history, returns_history, timestep, remaining_return, device)
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\candidate.py", line 456, in select_action_dt
+    action_preds = model(states, actions, returns, timesteps)
+  File "C:\Users\en596624\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\en596624\AppData\Local\Programs\Python\Python39\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\candidate.py", line 94, in forward
+    transformer_inputs[:, i * 3 + 2] = action_embeddings[:, i] + time_embeddings[:, i]
+IndexError: index 19 is out of bounds for dimension 1 with size 19
+[0m

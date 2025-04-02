@@ -1,0 +1,46 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.9.13
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.9.13
+            "5": 0.19.8
+            "8":
+                - 3
+                - 5
+            "12": 0.19.8
+            "13": windows-amd64
+batch_size:
+    value: 64
+dropout:
+    value: 0.1
+env_name:
+    value: CartPole-v1
+gamma:
+    value: 0.99
+hidden_dim:
+    value: 256
+lr:
+    value: 0.0001
+num_episodes:
+    value: 50
+num_epochs:
+    value: 10
+num_heads:
+    value: 8
+num_layers:
+    value: 4
+seq_len:
+    value: 20

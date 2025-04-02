@@ -1,0 +1,15 @@
+{"time":"2025-03-30T22:20:04.209485-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\en596624\\OneDrive - Ohio University\\Desktop\\rl_algorithm_zoo\\wandb\\run-20250330_222003-rtdkx73k\\logs\\debug-core.log"}
+{"time":"2025-03-30T22:20:05.529312-04:00","level":"INFO","msg":"created new stream","id":"rtdkx73k"}
+{"time":"2025-03-30T22:20:05.529312-04:00","level":"INFO","msg":"stream: started","id":"rtdkx73k"}
+{"time":"2025-03-30T22:20:05.529312-04:00","level":"INFO","msg":"handler: started","stream_id":"rtdkx73k"}
+{"time":"2025-03-30T22:20:05.529312-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"rtdkx73k"}
+{"time":"2025-03-30T22:20:05.529312-04:00","level":"INFO","msg":"sender: started","stream_id":"rtdkx73k"}
+{"time":"2025-03-30T22:20:05.8049273-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-30T22:20:07.8549912-04:00","level":"INFO","msg":"stream: closing","id":"rtdkx73k"}
+{"time":"2025-03-30T22:20:07.8549912-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-30T22:20:07.8555753-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-30T22:20:08.220307-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-30T22:20:08.4001699-04:00","level":"INFO","msg":"handler: closed","stream_id":"rtdkx73k"}
+{"time":"2025-03-30T22:20:08.4001699-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rtdkx73k"}
+{"time":"2025-03-30T22:20:08.4001699-04:00","level":"INFO","msg":"sender: closed","stream_id":"rtdkx73k"}
+{"time":"2025-03-30T22:20:08.4001699-04:00","level":"INFO","msg":"stream: closed","id":"rtdkx73k"}

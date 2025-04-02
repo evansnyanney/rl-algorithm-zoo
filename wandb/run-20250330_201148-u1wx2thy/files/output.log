@@ -1,0 +1,11 @@
+Training Decision Transformer on CartPole-v1 with 50 episodes
+Configuration: seq_len=40, batch_size=64, epochs=30
+Model architecture: hidden_dim=256, layers=4, heads=8
+Traceback (most recent call last):
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 125, in <module>
+    main()
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 88, in main
+    results = train_decision_transformer(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: train_decision_transformer() got an unexpected keyword argument 'hidden_dim'
+[0m

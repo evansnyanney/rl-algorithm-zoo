@@ -1,0 +1,19 @@
+Collecting expert demonstrations: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:00<00:00, 2195.42it/s]
+Collected 16 expert demonstrations
+Episode length stats: min=51, max=77, mean=57.3
+Epoch 1/10: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:06<00:00,  2.32it/s, loss=0.2464]
+Epoch 1/10 - Avg Loss: 0.296550
+Saved best model with loss: 0.296550
+Traceback (most recent call last):
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 66, in <module>
+    main()
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 57, in main
+    results = train_decision_transformer(
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\candidate.py", line 353, in train_decision_transformer
+    avg_score = evaluate_decision_transformer_in_training(model, env_name=env_name, target_return=500, num_eval_episodes=5)
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\candidate.py", line 230, in evaluate_decision_transformer_in_training
+    action = select_action_dt(model, states_history, actions_history, returns_history, timestep, remaining_return, device)
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\candidate.py", line 440, in select_action_dt
+    actions = actions.view(max_seq, act_dim)
+RuntimeError: shape '[20, 2]' is invalid for input of size 38
+[0m

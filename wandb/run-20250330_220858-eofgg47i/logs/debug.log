@@ -1,0 +1,23 @@
+2025-03-30 22:08:58,482 INFO    MainThread:36164 [wandb_setup.py:_flush():68] Current SDK version is 0.19.6
+2025-03-30 22:08:58,483 INFO    MainThread:36164 [wandb_setup.py:_flush():68] Configure stats pid to 36164
+2025-03-30 22:08:58,483 INFO    MainThread:36164 [wandb_setup.py:_flush():68] Loading settings from C:\Users\en596624\.config\wandb\settings
+2025-03-30 22:08:58,483 INFO    MainThread:36164 [wandb_setup.py:_flush():68] Loading settings from C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\wandb\settings
+2025-03-30 22:08:58,483 INFO    MainThread:36164 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-03-30 22:08:58,483 INFO    MainThread:36164 [wandb_init.py:setup_run_log_directory():637] Logging user logs to C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\wandb\run-20250330_220858-eofgg47i\logs\debug.log
+2025-03-30 22:08:58,491 INFO    MainThread:36164 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\wandb\run-20250330_220858-eofgg47i\logs\debug-internal.log
+2025-03-30 22:08:58,491 INFO    MainThread:36164 [wandb_init.py:init():756] calling init triggers
+2025-03-30 22:08:58,491 INFO    MainThread:36164 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'algorithm': 'decision_transformer', 'environment': 'CartPole-v1', 'episodes': 50, 'seq_len': 40, 'batch_size': 64, 'epochs': 30, 'hidden_dim': 256, 'num_layers': 4, 'num_heads': 8, 'learning_rate': 0.0001, 'gamma': 0.99, '_wandb': {}}
+2025-03-30 22:08:58,491 INFO    MainThread:36164 [wandb_init.py:init():789] starting backend
+2025-03-30 22:08:58,796 INFO    MainThread:36164 [wandb_init.py:init():793] sending inform_init request
+2025-03-30 22:08:58,839 INFO    MainThread:36164 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-03-30 22:08:58,841 INFO    MainThread:36164 [wandb_init.py:init():808] backend started and connected
+2025-03-30 22:08:58,843 INFO    MainThread:36164 [wandb_init.py:init():901] updated telemetry
+2025-03-30 22:08:58,845 INFO    MainThread:36164 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-03-30 22:09:00,428 INFO    MainThread:36164 [wandb_init.py:init():994] starting run threads in backend
+2025-03-30 22:09:02,855 INFO    MainThread:36164 [wandb_run.py:_console_start():2385] atexit reg
+2025-03-30 22:09:02,855 INFO    MainThread:36164 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-03-30 22:09:02,855 INFO    MainThread:36164 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-03-30 22:09:02,855 INFO    MainThread:36164 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-03-30 22:09:02,878 INFO    MainThread:36164 [wandb_init.py:init():1036] run started, returning control to user process
+2025-03-30 22:09:04,515 WARNING MsgRouterThr:36164 [router.py:message_loop():75] message_loop has been closed

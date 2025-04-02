@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 86, in <module>
+    main()
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 44, in main
+    results = train_decision_transformer(env_name=args.env, num_episodes=args.episodes, log_wandb=args.log_wandb)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: train_decision_transformer() got an unexpected keyword argument 'log_wandb'
+[0m

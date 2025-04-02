@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 37, in <module>
+    main()
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 28, in main
+    results = train_a2c(env_name=args.env, num_episodes=args.episodes, log_wandb=args.log_wandb, render=args.render)
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\hybrid.py", line 127, in train_a2c
+    state, _ = env.reset()
+ValueError: too many values to unpack (expected 2)

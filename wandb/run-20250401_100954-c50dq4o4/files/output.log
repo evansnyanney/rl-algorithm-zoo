@@ -1,0 +1,22 @@
+Collecting expert demonstrations:   0%|                                                                                                       | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 66, in <module>
+    main()
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\train.py", line 58, in main
+    results = train_decision_transformer(
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\candidate.py", line 239, in train_decision_transformer
+    episodes = create_expert_policy_dataset(env, num_episodes, max_ep_len=500)
+  File "C:\Users\en596624\OneDrive - Ohio University\Desktop\rl_algorithm_zoo\algorithms\candidate.py", line 134, in create_expert_policy_dataset
+    next_state, reward, done, truncated, _ = env.step(action)
+  File "C:\Users\en596624\AppData\Local\Programs\Python\Python39\lib\site-packages\gym\wrappers\time_limit.py", line 50, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "C:\Users\en596624\AppData\Local\Programs\Python\Python39\lib\site-packages\gym\wrappers\order_enforcing.py", line 37, in step
+    return self.env.step(action)
+  File "C:\Users\en596624\AppData\Local\Programs\Python\Python39\lib\site-packages\gym\wrappers\env_checker.py", line 37, in step
+    return env_step_passive_checker(self.env, action)
+  File "C:\Users\en596624\AppData\Local\Programs\Python\Python39\lib\site-packages\gym\utils\passive_env_checker.py", line 233, in env_step_passive_checker
+    if not isinstance(terminated, (bool, np.bool8)):
+  File "C:\Users\en596624\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\__init__.py", line 440, in __getattr__
+    raise AttributeError("module {!r} has no attribute "
+AttributeError: module 'numpy' has no attribute 'bool8'
+[0m
