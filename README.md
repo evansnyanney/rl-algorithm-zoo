@@ -1,10 +1,9 @@
 # rl-algorithm-zoo
 A comparative study of reinforcement learning algorithms on CartPole-v1, including REINFORCE, DQN, A2C, and Decision Transformer
 
-
 # RL Algorithm Zoo: A Comparative Study on CartPole-v1
 
-[![WandB Project](https://wandb.ai/evansnyanney-ohio-university/rl_algorithm_zoo/reports/Comparison-of-Four-Reinforcement-Learning-Methods-on-CartPole-v1--VmlldzoxMjEwMzE3MQ)](https://wandb.ai/evansnyanney/rl_algorithm-zoo)
+[![WandB Project](https://img.shields.io/badge/Weights%20%26%20Biases-Project-blue?logo=wandb)](https://api.wandb.ai/links/evansnyanney-ohio-university/oq7objbf)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/evansnyanney/rl-algorithm-zoo/main/LICENSE)
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/evansnyanney/rl-algorithm-zoo)
